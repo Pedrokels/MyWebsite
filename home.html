@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://db.onlinewebfonts.com/c/0435447fd9d43de93de189e00f2f3dcf?family=Cerebri+Sans+Pro"
+        rel="stylesheet">
+    <title>Pedro Juan</title>
+    <style>
+        @font-face {
+            font-family: "Cerebri Sans Pro";
+            src: url("https://db.onlinewebfonts.com/t/0435447fd9d43de93de189e00f2f3dcf.eot");
+            src: url("https://db.onlinewebfonts.com/t/0435447fd9d43de93de189e00f2f3dcf.eot?#iefix") format("embedded-opentype"),
+                url("https://db.onlinewebfonts.com/t/0435447fd9d43de93de189e00f2f3dcf.woff2") format("woff2"),
+                url("https://db.onlinewebfonts.com/t/0435447fd9d43de93de189e00f2f3dcf.woff") format("woff"),
+                url("https://db.onlinewebfonts.com/t/0435447fd9d43de93de189e00f2f3dcf.ttf") format("truetype"),
+                url("https://db.onlinewebfonts.com/t/0435447fd9d43de93de189e00f2f3dcf.svg#Cerebri Sans Pro") format("svg");
+        }
+
+        html,
+        body {
+
+            font-family: "Cerebri Sans Pro", sans-serif;
+        }
+
+        .sticky-card {
+            position: sticky;
+            top: 20vh;
+            /* Adjust how high you want it to stick from the top */
+            z-index: 10;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .h1-container {
+            display: none;
+            text-align: center;
+        }
+
+        .show {
+            display: block;
+        }
+
+        .main {
+            min-height: 150vh;
+            /* Just for extra space to scroll */
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body class="">
+    <nav class="text-dark fixed top-0 left-0 w-full shadow-md z-50">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <!-- Left: Title -->
+            <h1 class="text-xl font-bold"><span class="text-blue-800">pedro.</span>juan</h1>
+
+            <!-- Center: Navigation Links -->
+            <!-- <ul class="flex space-x-8">
+                <li><a href="home.html" class="hover:text-green-400 text-green-500">Home</a></li>
+                <li><a href="about.html" class="hover:text-green-400">About</a></li>
+                <li><a href="portfolio.html" class="hover:text-green-400">Portfolio</a></li>
+            </ul> -->
+
+            <!-- Right: Social Media Icons -->
+            <div class="flex space-x-1">
+                <a href="https://www.facebook.com/ptrpan.PTRPAN/"
+                    class="text-black hover:text-blue-800 dark:hover:text-blue-800 dark:text-black">
+                    <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+                <a href="#" class="text-black hover:text-blue-800 dark:hover:text-blue-800 dark:text-black">
+                    <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+                <!-- <a href="#" class="hover:text-gray-400"><i class="fa-brands fa-linkedin"></i></a> -->
+            </div>
+        </div>
+    </nav>
+    <main class="flex-1 ">
+        <div class=" flex items-center justify-center min-h-screen">
+            <div class="flex flex-col gap-12 container mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="">
+                        <div class="flex flex-col space-y-1.5 p-6">
+                            <div class="flex justify-between">
+                                <div class="flex flex-col">
+                                    <h1 class="text-3xl font-semibold leading-none tracking-tight text-gray-700">Hey
+                                        there,</h1>
+                                    <h1 class="text-8xl font-semibold leading-none tracking-tight mt-5 mb-3">I'm <span
+                                            class="text-blue-800">Pedro</span> Juan</h1>
+                                    <h1 class="text-3xl font-semibold leading-none tracking-tight text-gray-500">
+                                        ~ Full Stack Developer</h1>
+                                    <p class="text-sm text-muted-foreground mt-10 max-w-[630px] text-gray-500">
+                                        Results-driven Full-Stack Web Developer with 3 years of experience, specializing
+                                        in building
+                                        scalable web applications and integrating machine learning solutions. Proficient
+                                        in both
+                                        frontend and backend development, with expertise in designing interactive
+                                        systems, optimizing databases, and implementing AI-driven features. Skilled in
+                                        developing and maintaining enterprise-level systems, ensuring efficiency,
+                                        security, and seamless user experiences.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- The sticky card with the 3 h1 texts -->
+                    <div class="rounded-lg border bg-card text-card-foreground shadow-none sticky-card">
+                        <div class="flex flex-col space-y-1.5 p-6 h1-container" id="h1-container">
+                            <h1 class="text-4xl font-semibold" id="text1">Yo!</h1>
+                            <h1 class="text-4xl font-semibold" id="text2">Welcome to!</h1>
+                            <h1 class="text-4xl font-semibold" id="text3">My Website!</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        let currentIndex = 0;
+        const texts = document.querySelectorAll('.h1-container h1');
+        const h1Container = document.getElementById('h1-container');
+
+        // Function to show next h1
+        function showNextH1() {
+            if (currentIndex < texts.length) {
+                texts[currentIndex].classList.add('show');
+                currentIndex++;
+            } else {
+                // Allow scrolling after all 3 texts are shown
+                h1Container.style.transform = 'translateY(100%)'; // Move out of view
+            }
+        }
+
+        // Trigger scroll event
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 150) { // You can adjust this trigger point
+                showNextH1();
+            }
+        });
+
+        // Start showing the first text
+        showNextH1();
+    </script>
+
+</body>
+
+</html>
