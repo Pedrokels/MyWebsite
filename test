@@ -55,3 +55,107 @@
     <!-- Toggler -->
    
 </div>
+
+
+
+
+<!-- HEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE -->
+
+<div class="col-span-3 md:col-span-2 ">
+    <!-- PROJECTS 2 -->
+    <div
+        class="flex flex-col p-4  dark:bg-black bg-white border border-gray-600 border-dashed shadow-md rounded-2xl ">
+        <div class="flex items-center gap-2 mb-4">
+            <svg class="w-5 h-5 text-gray-800 dark:text-white" fill="none" stroke="currentColor"
+                viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                    d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                </path>
+            </svg>
+            <h2 class="text-lg font-bold">Projects</h2>
+        </div>
+
+
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2 ">
+            <div
+                class="border border-dashed rounded p-2 border-black dark:border-gray-600 hover:bg-[#474747] hover:text-white cursor-pointer transition ease-in duration-300  transform hover:scale-105">
+                <div class="flex items-center justify-between p-2">
+                    <div class="text-[12px] dark:text-white font-bold leading-none">
+                        Data Validation System
+                    </div>
+                    <div class="text-sm dark:text-white font-bold leading-none">
+                        -
+                    </div>
+                </div>
+            </div>
+            <div
+                class="border border-dashed rounded p-2 border-black dark:border-gray-600 hover:bg-[#474747] hover:text-white cursor-pointer transition ease-in duration-300  transform hover:scale-105">
+                <div class="flex items-center justify-between p-2">
+                    <div class="text-[12px] dark:text-white font-bold leading-none">
+                        IT - HELP DESK
+                    </div>
+                    <div class="text-sm dark:text-white font-bold leading-none">
+                        -
+                    </div>
+                </div>
+            </div>
+            <div
+                class="border border-dashed rounded p-2 border-black dark:border-gray-600 hover:bg-[#474747] hover:text-white cursor-pointer transition ease-in duration-300  transform hover:scale-105">
+                <div class="flex items-center justify-between p-2 ">
+                    <div class="text-[12px] dark:text-white font-bold leading-none ">
+                        Electronic Data Collection
+                        System for Biochemistry
+                    </div>
+                    <div class="text-sm/6 dark:text-white font-bold leading-none">
+                        -
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="border border-dashed rounded p-2 border-black dark:border-gray-600 hover:bg-[#474747] hover:text-white cursor-pointer transition ease-in duration-300  transform hover:scale-105">
+                <div class="flex items-center justify-between p-2">
+                    <div class="text-[12px] dark:text-white font-bold leading-none ">
+                        Nutrition Status Check
+                    </div>
+                    <div class="text-sm dark:text-white font-bold leading-none">
+                        -
+                    </div>
+                </div>
+            </div>
+            <div
+                class="border border-dashed rounded p-2 border-black dark:border-gray-600 hover:bg-[#474747] hover:text-white cursor-pointer transition ease-in duration-300  transform hover:scale-105">
+                <div class="flex items-center justify-between p-2">
+                    <div class="text-[12px] dark:text-white font-bold leading-none ">
+                        Attendance Management System with QR Code Attendance Tracker
+                    </div>
+                    <div class="text-sm dark:text-white font-bold leading-none">
+                        -
+                    </div>
+                </div>
+            </div>
+            <div
+                class="border border-dashed rounded p-2 border-black dark:border-gray-600  hover:bg-[#474747] hover:text-white cursor-pointer transition ease-in duration-300  transform hover:scale-105">
+                <div class="flex items-center justify-between p-2">
+                    <div class="text-[12px] dark:text-white font-bold leading-none ">
+                        Barangay e-Services and ID System
+                    </div>
+                    <div class="text-sm dark:text-white font-bold leading-none">
+                        -
+                    </div>
+                </div>
+            </div>
+            <div
+                class="border border-dashed rounded p-2 border-black dark:border-gray-600 hover:bg-[#474747] hover:text-white cursor-pointer transition ease-in duration-300  transform hover:scale-105 mb-3">
+                <div class="flex items-center justify-between p-2 ">
+                    <div class="text-[12px] dark:text-white font-bold leading-none ">
+                        Computerized Payroll System
+                    </div>
+                    <div class="text-sm dark:text-white font-bold leading-none">
+                        -
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
