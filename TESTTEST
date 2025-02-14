@@ -453,3 +453,52 @@
                     </div>
                 </div>
             </div>
+
+<!-- SADSADSADSAD -->
+
+            <div class="grid grid-cols-3  gap-4">
+                <!-- CONTACT ME -->
+                <div class="col-span-3 md:col-span-1">
+                    <div
+                        class=" p-5 bg-white dark:bg-black border border-gray-600 border-dashed shadow-lg rounded-2xl h-full max-h-100">
+                        <div class="flex items-center gap-2 mb-4">
+
+                            <h2 class="text-lg font-bold">Connect</h2>
+                        </div>
+                        <div class="  p-5 bg-slate-200 dark:bg-[#222831] dark:text-white shadow-lg rounded mb-2">
+                            <h3 class="text-xs">Email : pedro.juan@gmail.com
+                            </h3>
+                        </div>
+                        <div class="  p-5 bg-slate-200 dark:bg-[#222831] dark:text-white shadow-lg rounded mb-2">
+                            <h3 class="text-xs">Mobile # : 01924545654
+                            </h3>
+                        </div>
+
+                        <div class=" p-5 bg-slate-200 dark:bg-[#222831] dark:text-white shadow-lg rounded mb-2">
+                            <h3 class="text-xs">Email : pedro.juan@gmail.com
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-3 md:col-span-2">
+                    <div
+                        class="p-5 bg-white dark:bg-black border border-gray-600 border-dashed shadow-lg rounded-2xl h-full max-h-100">
+                        <div class="flex items-center gap-2 mb-4">
+                            <h2 class="text-lg font-bold">Certifications</h2>
+                        </div>
+
+                        <div class="grid grid-cols-3 gap-4">
+                            <div
+                                class="p-6 bg-white dark:bg-black border border-gray-600 border shadow-lg rounded h-full max-h-100">
+                                01</div>
+                            <div
+                                class="p-6 bg-white dark:bg-black border border-gray-600 border shadow-lg rounded h-full max-h-100">
+                                02</div>
+                            <div
+                                class="p-6 bg-white dark:bg-black border border-gray-600 border shadow-lg rounded h-full max-h-100">
+                                03</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FOOTER -->
+            </div>
